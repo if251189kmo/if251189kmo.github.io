@@ -228,6 +228,20 @@ nav a:hover {
 	margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ContentPart2 {
 	margin-top: 200px;	
 	position: relative;
@@ -239,7 +253,7 @@ nav a:hover {
 	width: 30%;
 	height: 18rem;
 	top: -230px;
-	z-index: 0;   /* виставити z-index */
+	z-index: 0;   
 }
 
 .workingOut h2 {
@@ -252,41 +266,33 @@ nav a:hover {
 
 
 
+
+
+
 .workingOutDetails {	
-	
-	padding-bottom: 150px;
+	padding-bottom: 150px; /* !!!!!!!!!!!!!  */
 	text-align: center;
+
 }
 
-.workingOutDetails div {
+
+
+.landing, .web, .internet {
 	display: inline-block;
 	width: 250px;
-	height: 200px;
-	vertical-align: top;
-}
-
-.workingOutDetails h3 {
-	color: black;
-	margin-top: 40px;
-	font-size: 30px;
-	padding: 0 10px;
-	text-align: left;
+	margin: 0 10px;
 	
-	
-	
-	
+	/*vertical-align: top;*/   
 }
 
 .landing {
 	background: url("../images/lending.jpg") center;    
-    background-size: cover; 
-
+    background-size: cover;
 }
 
 .web {
 	background: url("../images/web.jpg") center;    
     background-size: cover;
-
 }
 
 .internet {
@@ -294,7 +300,24 @@ nav a:hover {
     background-size: cover;
 }
 
+.workingOutBackground {
+	background-color: rgba(0, 0, 0, 0.7);
 
+}
+
+.workingOutBackground h3 {
+	color: #ffffff;	
+	font-size: 30px;
+	margin: 0 20px 0 20px;
+	padding-top: 40px;
+	text-align: left;    
+	border-bottom: 2px solid #ffffff;
+	min-height: 75px;	
+	
+}
+
+
+	/* arrowSection */ 
 
 .landing p{
 	border: 3px solid #00b9e7;
@@ -309,15 +332,71 @@ nav a:hover {
 }
 
 
-
+.arrowSection{
+	text-align: left;
+	padding: 20px 20px 20px 20px;
+}
 
 .arrowSection p {
-	display: inline-block;
-	
+	display: inline-block;	
 }
 
 .arrowSection img {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 5%;    
+	margin-left: 40%;
+	   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
