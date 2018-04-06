@@ -199,6 +199,8 @@ nav a:hover {
 	text-align: center;
 	color: #ffffff;
 }
+	
+	/* ContentPart1 */
 
 .ContentPart1 {	
     background-color:rgba(47, 34, 164, 0.49);
@@ -228,18 +230,7 @@ nav a:hover {
 	margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+	/* ContentPart2 */
 
 
 .ContentPart2 {
@@ -250,8 +241,8 @@ nav a:hover {
 .workingOut {
 	background-color: #f6ae48;
 	position: absolute;
-	width: 30%;
-	height: 18rem;
+	width: 45%;
+	height: 20rem;
 	top: -230px;
 	z-index: 0;   
 }
@@ -265,10 +256,6 @@ nav a:hover {
 }
 
 
-
-
-
-
 .workingOutDetails {	
 	padding-bottom: 150px; /* !!!!!!!!!!!!!  */
 	text-align: center;
@@ -276,13 +263,13 @@ nav a:hover {
 }
 
 
-
 .landing, .web, .internet {
 	display: inline-block;
 	width: 250px;
 	margin: 0 10px;
+	position: relative;
+	z-index: 2;
 	
-	/*vertical-align: top;*/   
 }
 
 .landing {
@@ -315,7 +302,6 @@ nav a:hover {
 	min-height: 75px;	
 	
 }
-
 
 	/* arrowSection */ 
 
