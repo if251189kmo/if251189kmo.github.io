@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {		
+	margin: 0 10px;
+}
+
+
+/* Header */
+
+
+header {
+    
+    background: url("../images/header.jpg") center;    
+    background-size: cover;
+}
+
+.HeaderMenu {
+	background-color:rgba(47, 34, 164, 0.49);
+	opacity: 0.88;
+
+}
+h1 {
+	color: #ffffff;
+    font-family: "Parangon 530 C";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 130px;    
+    margin: 0 auto;    
+    letter-spacing: 2.4px;
+    width: 80%;
+}
+
+.HeaderMenu > p {
+	padding-top: 52px;	
+    color: #ffffff;
+    font-family: "PT Sans - Caption";
+    font-size: 24px;    
+    line-height: 36px;
+    width: 60%;
+    /* Text style for "Б, ольшинс" */
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.headerBox {
+	text-align: center;
+	padding-top: 68px;
+	padding-bottom: 110px;
+}
+
+.BoxItem {
+	display: inline-block;
+	margin: 0 20px;
+	min-width: 220px;
+	background: url("../images/orderheder.png") no-repeat center;
+	background-size: 100% 100% ;    
+}
+
+.BoxItem > div {	
+	color: #ffffff;
+	font-size: 40px;	
+	letter-spacing: 2.4px;	
+}
+
+.BoxItemText > p {
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	font-family: "Arial";
+			
+}
+
+.BoxItemText {
+	padding: 30px 15px;
+	position: relative;
+}
+
+.LogoBox1, .LogoBox2, .LogoBox3 {
+	position: absolute;
+	top: -21px;	 
+}
+
+.LogoBox1 {	
+	right: 42%;
+}
+.LogoBox2 {	
+	right: 41%;
+}
+.LogoBox3 {	
+	right: 45%;
+}
+
+/* Navigation */
+
+
+.menuItem {
+	padding: 35px 60px;
+	border-bottom: 1.5px solid #85858E;
+}
+
+.menuItem a {	
+	padding: 0 17px;
+	text-decoration: none;	
+	color: #000000;	
+	font-size: 22px;	
+	letter-spacing: 1.5px;
+}
+
+nav {
+	text-align: right;
+	background-color: #ffffff;
+} 
+
+nav a:hover {
+	color: #f6ae48;	
+}
+
+/* article */
+
+.article {
+	padding: 150px 50px;
+
+}
+
+.articleContent1 {
+	padding-bottom: 100px;
+	display: flex;
+	align-items: center;
+
+}
+
+.articleContent1 h2 {
+	display: inline-block;
+	color: #000000;
+	font-size: 40px;
+	letter-spacing: 2.4px;
+	margin-right: 20%; 	
+	
+}
+
+.articleContent1 p {
+	display: inline-block;
+	width: 750px;	
+	font-size: 20px;
+	line-height: 30px;	
+	letter-spacing: 1.2px;	
+}
+
+.start, .promotion, .support{
+	vertical-align: top;
+	padding: 60px 0;
+	margin: 0 1.2%;
+	font-size: 15px;	
+	line-height: 25.57px;
+	letter-spacing: 0.9px;
+	width: 30%;
+	display: inline-block;
+}
+
+.start {
+	margin-left: 0;
+}
+
+
+.support {
+	background-color: #f6ae48;
+	color: #ffffff;
+	padding: 60px 30px 30px 30px;
+	margin: 0;
+}
+
+.arrow {	
+	margin-top: 20px;
+}
+
+.arrow p {
+	display: inline-block;
+	border: 2px solid #ffffff;
+}
+
+.arrow img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 60%;    
+}
+
+/* section */
+
+.section {
+	background: url("../images/header2.jpg") center;    
+    background-size: cover;
+    min-height: 500px;
+}
+
+.sectionContent {
+	background-color:rgba(47, 34, 164, 0.49);
+	opacity: 0.88;
+}
+
+.sectionContent div p {
+	text-align: center;
+	color:  green;
+}
+
