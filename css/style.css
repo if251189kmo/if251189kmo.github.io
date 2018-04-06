@@ -191,19 +191,123 @@ nav a:hover {
 
 /* section */
 
-.section {
-	background: url("../images/header2.jpg") center;    
-    background-size: cover;
+.section {	
     min-height: 500px;
-}
-
-.sectionContent {
-	background-color:rgba(47, 34, 164, 0.49);
-	opacity: 0.88;
 }
 
 .sectionContent div p {
 	text-align: center;
-	color:  yellow;
+	color: #ffffff;
 }
 
+.ContentPart1 {	
+    background-color:rgba(47, 34, 164, 0.49);
+    
+}    
+
+.sectionBackground {
+	background: url("../images/header2.jpg") center;    
+    background-size: cover;
+	
+}
+
+.ContentPart1 :first-child {
+	padding-top: 150px;
+	padding-bottom: 45px;
+	font-size: 50px;
+	font-weight: 700;	
+	letter-spacing: 2.5px;
+}
+
+.ContentPart1 :last-child {
+	padding-bottom: 160px;
+	width: 68%;
+	font-size: 24px;	
+	line-height: 36px;	
+	letter-spacing: 1.2px;
+	margin: 0 auto;
+}
+
+.ContentPart2 {
+	margin-top: 200px;	
+	position: relative;
+}
+
+.workingOut {
+	background-color: #f6ae48;
+	position: absolute;
+	width: 30%;
+	height: 18rem;
+	top: -230px;
+	z-index: 0;   /* виставити z-index */
+}
+
+.workingOut h2 {
+	margin-top: 15%;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+	text-align: center;	
+}
+
+
+
+.workingOutDetails {	
+	
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.workingOutDetails div {
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	
+
+
+}
+
+.landing {
+	background: url("../images/lending.jpg") center;    
+    background-size: cover; 
+
+}
+
+.web {
+	background: url("../images/lending.jpg") center;    
+    background-size: cover;
+
+}
+
+.internet {
+	background: url("../images/lending.jpg") center;    
+    background-size: cover;
+}
+
+
+
+.landing p{
+	border: 3px solid #00b9e7;
+}
+
+.web p{
+	border: 3px solid #ffcb00;
+}
+
+.internet p{
+	border: 3px solid #66bf0d;
+}
+
+
+
+
+.arrowSection p {
+	display: inline-block;
+	
+}
+
+.arrowSection img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5%;    
+}
