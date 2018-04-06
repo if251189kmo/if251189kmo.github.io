@@ -289,7 +289,10 @@ nav a:hover {
 
 .workingOutBackground {
 	background-color: rgba(0, 0, 0, 0.7);
+}
 
+.workingOutBackground:hover {
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .workingOutBackground h3 {
@@ -301,6 +304,10 @@ nav a:hover {
 	border-bottom: 2px solid #ffffff;
 	min-height: 75px;	
 	
+}
+
+.workingOutBackground h3:hover {
+	color: #00b9e7;
 }
 
 	/* arrowSection */ 
@@ -326,6 +333,7 @@ nav a:hover {
 .arrowSection p {
 	display: inline-block;	
 }
+
 
 .arrowSection img {
 	display: inline-block;
