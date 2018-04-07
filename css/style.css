@@ -239,13 +239,19 @@ nav a:hover {
 }
 
 .workingOut {
+	background: url("../images/256.png") no-repeat;
+
 	background-color: #f6ae48;
 	position: absolute;
 	width: 45%;
 	height: 20rem;
 	top: -230px;
-	z-index: 0;   
+	z-index: 0;
+	
+	    
 }
+
+
 
 .workingOut h2 {
 	margin-top: 15%;
