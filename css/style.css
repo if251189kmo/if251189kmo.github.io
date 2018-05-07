@@ -365,6 +365,27 @@ nav a:hover {
 
 
 
+	/* Button Up */ 
+
+.buttonUp {
+    display: none;
+       
+  
+}
+
+.buttonActive {
+	display: block;
+  	position: fixed;
+    z-index: 100;
+    right: 8vh;
+    top: 88vh;    
+    border-radius: 50px;
+    padding: 15px;
+    background-color: green;     
+}
+
+
+	
 
 
 
@@ -395,8 +416,6 @@ nav a:hover {
 
 
 
-
-/*
 
 
 
