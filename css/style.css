@@ -144,16 +144,18 @@ nav a:hover {
 }
 
 .articleContent1 p {
+	background: url("../images/we.png") no-repeat;
 	display: inline-block;
 	width: 750px;	
 	font-size: 20px;
 	line-height: 30px;	
 	letter-spacing: 1.2px;	
+	padding: 60px 0 60px 60px;
 }
 
 .start, .promotion, .support{
 	vertical-align: top;
-	padding: 60px 0;
+	padding: 10px 0;
 	margin: 0 1.2%;
 	font-size: 15px;	
 	line-height: 25.57px;
@@ -164,13 +166,20 @@ nav a:hover {
 
 .start {
 	margin-left: 0;
+
 }
 
+.promotion img{	
+	padding-bottom: 12px; 
+}
+.support img:first-child{	
+	padding-bottom: 12px; 
+}
 
 .support {
 	background-color: #f6ae48;
 	color: #ffffff;
-	padding: 60px 30px 30px 30px;
+	padding: 10px 30px 10px 30px;
 	margin: 0;
 }
 
