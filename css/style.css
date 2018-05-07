@@ -261,7 +261,7 @@ nav a:hover {
 }
 
 .gear {
-	background: url("../images/256.png") no-repeat ;
+	background: url("../images/gear1.png") no-repeat;
 	height: 100%;
 
 }
@@ -360,6 +360,35 @@ nav a:hover {
 	margin-left: 40%;
 	   
 }
+
+
+	/* the first in the search */
+
+.firstSearch{
+	text-align: center;
+	
+}
+
+.firstSearch div {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.firstSearch div p {
+	text-align: left;
+	width: 340px;	
+	font-size: 13pt;
+	color: black;
+	
+}
+
+.firstSearch div img {
+	display: block;
+	
+}
+
+
 
 
 
