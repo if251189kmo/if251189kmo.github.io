@@ -1,7 +1,7 @@
 $(function(){
 
     var $links = $('.menuItem a');
-    var $mh = parseInt($('.menuItem').height()) + 20;
+    var $mh = parseInt($('.menuItem').height()) + 110;
     
     $links.on('click', function(e){
     	e.preventDefault();
