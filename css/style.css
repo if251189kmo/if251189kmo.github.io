@@ -443,11 +443,14 @@ nav a:hover {
 
 .imageItem {
 	display: inline-block;
+	
 }
 
 .imageItem img {
 	border: 2px solid #ffffff;
 	border-radius: 5px;
+	
+
 }
 
 .imageItem .imageItem1 {
@@ -480,6 +483,17 @@ nav a:hover {
 .imageItem .imageItem6 {
 	width: 271px;
 	height: 250px;
+}
+
+
+
+.imageItem :hover {
+	background: url("../images/fonprogect.png") no-repeat;
+	background-size: 100%; 
+	border: 2px solid red;
+
+	
+	
 }
 
 /*Button moreProjekt */ 
