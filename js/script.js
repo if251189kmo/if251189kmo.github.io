@@ -21,14 +21,14 @@ $(function(){
     
     $(window).scroll(function() {
         if ($(document).scrollTop() > 100) {
-            $("button").addClass("buttonActive");
+            $(".buttonUp").addClass("buttonActive");
         } else {            
-            $("button").removeClass("buttonActive");
+            $(".buttonUp").removeClass("buttonActive");
         }
         
     });
 
-    $("button").click(function(){
+    $(".buttonUp").click(function(){
 
         $('html,body').animate({scrollTop: 0});
 

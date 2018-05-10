@@ -424,6 +424,7 @@ nav a:hover {
 	background-color: #303263; 
 	min-height: 500px;
 	text-align: center;
+	margin-bottom: 150px;
 	
 }
 
@@ -431,7 +432,7 @@ nav a:hover {
 	background: url("../images/lastprojekt.png") no-repeat;
 	background-size: 100%; 
 	display: inline-block;
-	padding: 10px 10%;
+	padding: 12px 10%;
 	margin: 15px 0;
 	font-size: 22px;
 	color: #ffffff;
@@ -444,39 +445,51 @@ nav a:hover {
 	display: inline-block;
 }
 
+.imageItem img {
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+}
+
 .imageItem .imageItem1 {
 	width: 550px;
-
+	height: 300px;
 }
 
 .imageItem .imageItem2 {
 	width: 550px;
-
+	height: 300px;
 }
 
 
 .imageItem .imageItem3 {
-	width: 225px;
+	width: 271px;
+	height: 250px;
 
 }
 
 .imageItem .imageItem4 {
-	width: 225px;
-
+	width: 271px;
+	height: 250px;
 }
 
 .imageItem .imageItem5 {
-	width: 225px;
-
+	width: 271px;
+	height: 250px;
 }
 
 .imageItem .imageItem6 {
-	width: 225px;
-
+	width: 271px;
+	height: 250px;
 }
 
+/*Button moreProjekt */ 
 
-
+.moreProjekt {
+	padding: 10px;
+	border-radius: 15px;
+	margin: 15px
+	
+}
 
 
 
