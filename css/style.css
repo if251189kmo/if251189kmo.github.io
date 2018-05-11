@@ -607,10 +607,11 @@ nav a:hover {
 
 }
 
-/* Part2 */
+	/* Part2 */
 .tradeInFone {
 	background: url("../images/tradein.png") center;	 
     background-size: 100%;
+    margin-bottom: 100px; 
 }
 
 .tradeIn {	
@@ -637,7 +638,14 @@ nav a:hover {
 .progresWorkTitle, .conditionsTitle, .programTitle {
 	font-weight: bold;
 	font-size: 22px;
-	padding-bottom: 15px;
+	padding: 23px 0;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.progresWorkBox {
+	margin-left: -30px;
 }
 
 .tradeIn button {
@@ -647,16 +655,92 @@ nav a:hover {
 	border-radius: 15px;
 }
 
+.rateSite:hover {
+	background-color: #f6ae48; 
+}
+
+.rateSite a{ 
+	text-decoration: none;
+}
+
+	/* Part3 */
+
+.Caring {
+	text-align: center;
+
+	
+}
+
+.Caring div {
+	display: inline-block;
+}
 
 
+.CaringText {
+	width: 31%;
+	text-align: left;
+	margin-right: 8%;
+	vertical-align: top;
+	font-size: 13pt;
+}
+
+.CaringText :first-child {	
+	background: url("../images/becareful.png") no-repeat;	
+	background-size: contain;
+	font-size: 20pt;	
+	padding: 10px 0 10px 30px;	
+	font-weight:bold;
+	
+
+}
+
+.CaringText p {
+	line-height: 32px;
+	padding: 0 0 0 30px;
 
 
+	
+}
+.imgCaring :nth-child(1) {
+	width: 80%;
+	
+}
 
 
+/* Footer */
 
+.footer {
+	background: url("../images/footer.png") center;	 
+    background-size: 100%;
+       
+}
 
+.footerFone {	
+    background-color:rgba(47, 34, 164, 0.49); 
+	text-align: center; 
+}
 
+.footerText {
+	width: 300px;
+	display: inline-block;
+}
 
+.table {
+	width: 400px;
+	height: 200px;
+	background-color: green;
+	display: inline-block;
+}
+
+.end {
+	background-color: #f6ae48;
+	
+
+}
+
+.end p {
+	padding: 30px 0;
+}
 
 
 
