@@ -550,13 +550,15 @@ nav a:hover {
 
 
 /* section Part2*/
-
+	
+	/* Part1*/
 .sectionPart2 {
 	margin-bottom: 200px;
 }
 
 .adaptability {
 	text-align: right;
+	margin-bottom: 200px;
 }
 
 .adaptability div {
@@ -590,7 +592,6 @@ nav a:hover {
 }
 
 
-
 .imgComputers :nth-child(1) {
 	width: 70px;
 	margin-right: 40px;
@@ -606,15 +607,45 @@ nav a:hover {
 
 }
 
+/* Part2 */
+.tradeInFone {
+	background: url("../images/tradein.png") center;	 
+    background-size: 100%;
+}
 
+.tradeIn {	
+    background: url("../images/tradefone.png") center;	
+	text-align: center;
+}
 
+.tradeIn > p{
+	font-size: 35pt;
+	color: rgba(255, 255, 255, 255);
+	padding: 40px 0 60px 0; 
+}
 
+.program, .progresWork, .conditions{
+	width: 300px;
+	display: inline-block;
+	text-align: left;
+	color: rgba(255, 255, 255, 255);
+	margin: 0 20px;	
+	vertical-align: top;
+	font-size: 15px;
+}
 
+.progresWorkTitle, .conditionsTitle, .programTitle {
+	font-weight: bold;
+	font-size: 22px;
+	padding-bottom: 15px;
+}
 
-
-
-
-
+.tradeIn button {
+	display: inline;
+	padding: 10px 12px;
+	margin: 20px 0 40px 0;
+	border-radius: 15px;
+}
 
 
 
