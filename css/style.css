@@ -455,60 +455,62 @@ nav a:hover {
 
 }
 
-.imageItem .imageItem1 {
-	width: 550px;
-	height: 300px;
-	z-index: 2;
-}
-
-.imageItem .imageItem2 {
+.imageItem1 {
 	width: 550px;
 	height: 300px;
 	
-	
 }
 
 
-.imageItem .imageItem3 {
+
+.imageItem2 {
 	width: 271px;
 	height: 250px;
 	
 }
 
-.imageItem .imageItem4 {
-	width: 271px;
-	height: 250px;
-	
-}
 
-.imageItem .imageItem5 {
-	width: 271px;
-	height: 250px;
-	
-}
-
-.imageItem .imageItem6 {
-	width: 271px;
-	height: 250px;
-	
-}
 
 
 /*Fone and Text Active Project */
 
-.imageItem .after {
+.after1 {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 550px;
+	height: 300px;
     display: none;
     color: #FFF;
 }
 
+.after1  div {
+	padding-top: 20%;
+	font-size: 30px;
+	font-weight:bold
 
 
-.imageItem:hover .after {
+}
+
+.after2 {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 271px;
+	height: 250px;
+    display: none;
+    color: #FFF;
+}
+
+.after2  div {
+	padding-top: 35%;
+	font-size: 30px;
+	font-weight:bold
+
+
+}
+
+.imageItem:hover .after1 {
     display: block;
     background: url("../images/fonprogect.png") no-repeat;
    	background-size: cover;
@@ -517,6 +519,14 @@ nav a:hover {
 }
 
 
+
+.imageItem:hover .after2 {
+    display: block;
+    background: url("../images/fonprogect.png") no-repeat;
+   	background-size: cover;
+   	border: 2px solid #fffff1;
+   	border-radius: 5px;
+}
 
 
 
