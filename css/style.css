@@ -535,7 +535,12 @@ nav a:hover {
 	padding: 10px;
 	border-radius: 15px;
 	margin: 15px
-	
+}
+
+.moreProjekt a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 .moreProjekt:hover {
@@ -550,6 +555,9 @@ nav a:hover {
 	margin-bottom: 200px;
 }
 
+.adaptability {
+	text-align: right;
+}
 
 .adaptability div {
 	display: inline-block;
@@ -558,7 +566,9 @@ nav a:hover {
 
 .adaptabilityText {
 	width: 31%;
-	margin-left: 50px;
+	text-align: left;
+	margin-right: 8%;
+
 }
 
 .adaptabilityText :first-child {	
@@ -575,14 +585,26 @@ nav a:hover {
 .adaptabilityText p {
 	line-height: 32px;
 	padding: 0 0 0 30px;
+
 	
 }
 
 
 
+.imgComputers :nth-child(1) {
+	width: 70px;
+	margin-right: 40px;
+}
 
+.imgComputers :nth-child(2) {
+	width: 150px;
+	margin-right: 20px;
+}
 
+.imgComputers :nth-child(3) {
+	width: 300px;
 
+}
 
 
 
