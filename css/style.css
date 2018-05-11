@@ -198,9 +198,9 @@ nav a:hover {
 	margin-left: 60%;    
 }
 
-/* section */
+/* section Part1*/
 
-.section {	
+.sectionPart1 {	
     min-height: 500px;
 }
 
@@ -529,13 +529,6 @@ nav a:hover {
 }
 
 
-
-
-
-
-
-
-
 /*Button moreProjekt */ 
 
 .moreProjekt {
@@ -549,6 +542,57 @@ nav a:hover {
 	background: url("../images/fonprogect.png");
    
 }
+
+
+/* section Part2*/
+
+.sectionPart2 {
+	margin-bottom: 200px;
+}
+
+
+.adaptability div {
+	display: inline-block;
+}
+
+
+.adaptabilityText {
+	width: 31%;
+	margin-left: 50px;
+}
+
+.adaptabilityText :first-child {	
+	background: url("../images/adaptability.png") no-repeat;	
+	background-size: contain;
+	font-size: 20pt;	
+	padding: 5px 0 5px 30px;
+	font-weight: normal;
+	font-weight:bold;
+	
+
+}
+
+.adaptabilityText p {
+	line-height: 32px;
+	padding: 0 0 0 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
